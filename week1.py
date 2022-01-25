@@ -1,2 +1,11 @@
-for x in range(10):
-    print("Hello World" + str(x))
+x = ["600", "700", "800", "1200", "500"]
+y= len(x)
+print(y)
+x.append("900")
+print(x)
+x.insert(0, "300")
+print(x)
+x.remove("700")
+print(x)
+x.pop(3)
+print(x)
